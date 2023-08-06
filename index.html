@@ -3,20 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algum titulo bobo para página</title>
+    <link rel="stylesheet" href="css/global.css">
+    <title>Home</title>
 </head>
-<body>
-    <h1>Algum Titulo Bobo</h1>
-    <h2>Algum subtitulo Bobo</h2>
-    <h3>Algum subtitulo do subtitulo bobo</h3>
-    <h4>Algum subtitulo do subtitulo bobo</h4>
-    <h5>Algum subtitulo do subtitulo Bobo</h5>
-    <h6>Algum subtitulo do subtitulo Bobo</h6>
+    <body>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sapiente voluptatum veritatis ducimus dolores debitis officiis consequuntur adipisci cum, suscipit odit ad vel aut error et consectetur porro fugiat quaerat!</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sapiente voluptatum veritatis ducimus dolores debitis officiis consequuntur adipisci cum, suscipit odit ad vel aut error et consectetur porro fugiat quaerat!</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sapiente voluptatum veritatis ducimus dolores debitis officiis consequuntur adipisci cum, suscipit odit ad vel aut error et consectetur porro fugiat quaerat!</p>
+        <!-- Ancoras e menu -->
+        <ul id = "menu">
+            <li><a class="font_style" href="index.html">Home</a></li>
+            <li><a class="font_style" href="contato.html">Contato</a></li>
+        </ul>
+        <hr>
 
-    <img src="assets/desenhos_cartoon.jpg" alt="Personagens do cartoon network reunidos em uma sala de cinema">
-</body>
+        <!-- Tags de titulos, subtitulos e paragrafo (Obs: é recomendado usar o h1 apenas uma vez e utilizar no máximo até o h3/h4) -->
+        <h1 class="center font_style ">Algum Titulo bobo para home</h1>
+        <hr>
+        <h2 class="center font_style">Algum subtitulo Bobo</h2>
+        <h3 class="center font_style">Algum subtitulo do subtitulo bobo</h3>
+        <h4 class="center font_style">Algum subtitulo do subtitulo bobo</h4>
+        <h5 class="center font_style">Algum subtitulo do subtitulo Bobo</h5>
+        <h6 class="center font_style">Algum subtitulo do subtitulo Bobo</h6>
+        <hr>
+        <div class="container">
+            <div class="padding">
+                <p class="center font_style">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sapiente voluptatum veritatis ducimus dolores debitis officiis consequuntur adipisci cum, suscipit odit ad vel aut error et consectetur porro fugiat quaerat!</p>
+                <p class="center font_style">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas sapiente voluptatum veritatis ducimus dolores debitis officiis consequuntur adipisci cum, suscipit odit ad vel aut error et consectetur porro fugiat quaerat!</p>
+                <p class="center font_style">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quastu sapiente voluptatum veritatis ducimus dolores debitis officiis consequuntur adipisci cum, suscipit odit ad vel aut error et consectetur porro fugiat quaerat!</p>
+            </div>
+            <div>
+                <!-- Formas de encontrar imagens com HTML: Caminho ou link -->    
+                <img class="padding" id = "cartoon_img" src="assets/desenhos_cartoon.jpg" alt="Personagens do cartoon network reunidos em uma sala de cinema">
+            </div>
+        </div>
+        <hr>
+        <!-- Formas de buscar videos no youtube com HTML: incorporar video no YT -->
+        <h2 class="center font_style">Algum subtitulo Bobo</h2>
+        <div class="container">
+            <iframe class="iframes" src="https://www.youtube.com/embed/6hy85d_hyBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- Tags Listas -->
+
+      <!--  Não ordenada
+        <ul class="">
+            <li class="font_style">Item de lista desordenada</li>
+            <li class="font_style">Item de lista desordenada</li>
+            <li class="font_style">Item de lista desordenada</li>
+            <li class="font_style">Item de lista desordenada</li>
+        </ul>
+
+             Ordenada
+        <ol class="">
+            <li class="font_style">Item de lista ordenada</li>
+            <li class="font_style">Item de lista ordenada</li>
+            <li class="font_style">Item de lista ordenada</li>
+            <li class="font_style">Item de lista ordenada</li>
+        </ol>-->
+
+        <hr>
+
+        <footer>
+            <p class="center font_style">&copy; Desenvolvido Por Gabriela Guerra</p>
+        </footer>
+    </body>
 </html>

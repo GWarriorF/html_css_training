@@ -1,0 +1,65 @@
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartoon_img{
+    width: 450px;
+}
+
+body{
+    background-color: #141414;
+}
+
+.font_style{
+    font-family: monospace;
+    color: #fff;
+}
+
+#menu{
+    margin-left: 41%;
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    font-size: 15px;
+}
+
+.iframes{
+    width:560px;
+    height:315px;
+    margin: 20px;
+}
+
+.padding{
+    padding: 30px;
+}
+
+.caixa_texto{
+    background-color: #141414;
+}
+
+button:hover{
+    font-size: 15px;
+}
+
+.mg{
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
