@@ -21,19 +21,22 @@
         <form class="container">
             <div>
                 <label class="font_style" for="nome">Nome:</label><br>
-                <input class="caixa_texto" type="text" id="nome">
-                <br>
+                <input class="caixa_texto font_style" type="text" id="nome" onkeyup="validaNome()">
+                <div id="txt_nome"></div>
                 <br>
     
                 <label class="font_style" for="email">E-mail:</label><br>
-                <input class="caixa_texto" type="email" id="email">
+                <input class="caixa_texto font_style" type="email" id="email" onkeyup="validaEmail()">
+                <div id="txt_email"></div>
                 <br>
-                <br>
+
                 <label class="font_style"for="assunto">Assunto:</label><br>
                 <!--Colunas: aumenta a largura | linhas: aumenta a altura -->
-                <textarea class="caixa_texto" name="assunto" id="assunto" cols="30" rows="10"></textarea> <br>
-        
-                <button class="caixa_texto font_style">Enviar</button>
+                <textarea onkeyup="validaAssunto()" class="caixa_texto font_style" name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                <div id="txt_assunto"></div>
+                <br>
+                <button onclick="enviar()" class="caixa_texto font_style">Enviar</button>
+
             </div>
             <div>
                 <iframe class="iframes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14626.088571269245!2d-46.672909658648514!3d-23.585599945212103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1690850449169!5m2!1spt-BR!2sbr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -44,6 +47,8 @@
     <footer>
         <p class="center font_style">&copy; Desenvolvido Por Gabriela Guerra</p>
     </footer>
+    
+    <script src="js/script.js"></script>
     
 </body>
 </html>
